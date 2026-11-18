@@ -42,6 +42,15 @@ pip install -r requirements.txt
    python test_pipeline_logic.py
    ```
 
+## Windows quick start (PowerShell)
+```
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install opencv-python numpy scipy
+.\.venv\Scripts\python.exe test_pipeline_logic.py
+```
+This installs only what the self-test needs. Install `requirements.txt`
+(which includes `ultralytics`) when you are ready to run real video.
+
 ## Running on a stored video
 ```
 python run.py --input your_clip.mp4 --output your_clip_overlay.mp4
