@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Model weights (download separately)
+*.pt
+*.onnx
+*.engine
+
+# Video and frame data: broadcast footage is not ours to redistribute
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+frames/
+output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
