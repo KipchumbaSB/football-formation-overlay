@@ -1,5 +1,14 @@
 # Football Formation Overlay
 
+![football](https://img.shields.io/badge/topic-football-2E7D32?labelColor=24292f&style=flat-square)
+![soccer analytics](https://img.shields.io/badge/topic-soccer_analytics-FFFFFF?labelColor=24292f&style=flat-square)
+![computer vision](https://img.shields.io/badge/topic-computer_vision-1976D2?labelColor=24292f&style=flat-square)
+![sports analytics](https://img.shields.io/badge/topic-sports_analytics-8E24AA?labelColor=24292f&style=flat-square)
+![yolo](https://img.shields.io/badge/topic-yolo-FB8C00?labelColor=24292f&style=flat-square)
+![python](https://img.shields.io/badge/topic-python-FDD835?labelColor=24292f&style=flat-square)
+[![MIT license](https://img.shields.io/badge/license-MIT-43A047?labelColor=24292f&style=flat-square)](LICENSE)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-E53935?labelColor=24292f&style=flat-square)](CONTRIBUTING.md)
+
 Real-time football formation detection from player positions, with an
 overlay layer in the style of LaLiga's broadcast tactical graphics
 (ground-plane ellipse per player, red marker on the out-of-possession team).
@@ -43,7 +52,8 @@ Before running on real footage, supply real pitch-calibration points. See
 ## Contributing
 
 This is an open-source project and contributions are welcome: open an
-issue to discuss an idea, or send a pull request. Good starting points are
+issue to discuss an idea, or send a pull request. Read
+[CONTRIBUTING.md](CONTRIBUTING.md) first. Good starting points are
 the stand-ins listed under "Status and limits" (soccer-specific detector,
 automatic pitch-keypoint calibration, a ByteTrack/BoT-SORT tracker) and the
 Phase 2 streaming work.
